@@ -1,1 +1,1 @@
-# Python_Algorithms-
+# Python and JavaScript Projects 
