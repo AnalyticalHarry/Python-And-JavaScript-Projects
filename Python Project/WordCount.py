@@ -17,3 +17,6 @@ def word_count(filename, top_word_count=10):
     #displaying the top N words and their frequencies
     for word, count in words_count.most_common(top_word_count):
         print(f"{word} : {count} times")
+
+
+word_count("essay.txt", top_word_count=10)
