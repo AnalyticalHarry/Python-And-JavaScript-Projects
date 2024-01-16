@@ -15,9 +15,15 @@ def bubble_sort(data, ascending=True):
                 if data[j] < data[j+1]:
                     #swap the current elements is less than the next
                     data[j], data[j + 1] = data[j+1], data[j]
+
 #list of numbers from 1 to 20 
 data = [x for x in range(1, 21)]
+#original list
+print("Original List:", data)
 
-bubble_sort(data, ascending=True)
-
-print("Sorted List (Ascending):", data)
+#ascending sort
+sorted_data_ascending = bubble_sort(data, ascending=True)
+print("Sorted List Ascending", sorted_data_ascending)
+#descending sort
+sorted_data_descending = bubble_sort(data, ascending=False)
+print("Sorted List Descending", sorted_data_descending)
