@@ -1,4 +1,3 @@
-# Define the insertion sort function
 def insert_sort(data, ascending=True):
     #length of the data
     length = len(data)
