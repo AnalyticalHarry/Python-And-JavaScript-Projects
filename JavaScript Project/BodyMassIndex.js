@@ -1,8 +1,11 @@
+// creating function for body mass index
 function bodyMassIndex(weight, height, age, sex) {
     try {
+        //formula for body mass index
         const bodyMassIndex = weight / (height * height);
         if (age < 18) {
             return "BMI categories for children and adolescents are age- and sex-specific.";
+            //if user ager is greater or equal to eighteen 
         } else if (age >= 18) {
             if (bodyMassIndex < 18.5) {
                 return "Underweight";
@@ -24,7 +27,7 @@ function bodyMassIndex(weight, height, age, sex) {
         return "Error: Height cannot be zero";
     }
 }
-
+//function for user input
 function main() {
     try {
         const weight = parseFloat(prompt("Enter your weight in kilograms: "));
