@@ -1,12 +1,10 @@
 function selectionSort(data, ascending = true) {
     //the length of the input array 'data'
     const length = data.length;
-
     //for loop to iterate over the elements of the array
     for (let i = 0; i < length; i++) {
         //initialise a variable minIndex to the current index i
         let minIndex = i;
-
         //nested loop to find the index of the minimum/maximum element
         for (let j = i + 1; j < length; j++) {
             // Check if sorting is in ascending order
@@ -22,11 +20,9 @@ function selectionSort(data, ascending = true) {
                 }
             }
         }
-
         //swap the element at i with the element at minIndex
         [data[i], data[minIndex]] = [data[minIndex], data[i]];
     }
-
     //return the sorted array
     return data;
 }
