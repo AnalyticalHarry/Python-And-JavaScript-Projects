@@ -1,5 +1,5 @@
 function shellSort(data, ascending = true) {
-    // length of dataset
+    //length of dataset
     const n = data.length;
   //splitting length of data into twp part
     let gap = Math.floor(n / 2);
