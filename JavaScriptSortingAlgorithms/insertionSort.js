@@ -1,5 +1,5 @@
 function insertionSort(data, ascending = true) {
-  //length of the data array
+  //length of the array
   const length = data.length;
 
   //iterate over the elements starting from the second one
