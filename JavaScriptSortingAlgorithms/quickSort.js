@@ -1,5 +1,5 @@
 function quickSort(data, ascending = true) {
-  //length of data
+  //length of array
   const length = data.length;
 
   //return data if length is 1 or less
