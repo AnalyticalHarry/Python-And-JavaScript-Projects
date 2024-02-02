@@ -1,6 +1,6 @@
 #function for binary_search function to search for a target element in a sorted array.
 def binary_search(data, target):
-    left, right = 0, len(arr) - 1
+    left, right = 0, len(data) - 1
     #while loop to perform binary search.
     while left <= right:
         #the middle index.
@@ -8,7 +8,7 @@ def binary_search(data, target):
         if data[mid] == target:
             #return the index of the target element if found.
             return mid  
-        elif arr[mid] < target:
+        elif data[mid] < target:
             #adjust the left boundary if the target is on the right.
             left = mid + 1  
         else:
