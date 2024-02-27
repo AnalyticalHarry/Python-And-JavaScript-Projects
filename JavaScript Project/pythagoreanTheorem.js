@@ -1,22 +1,19 @@
-// Function to calculate hypotenuse
+// formula for hypotenuse
 function calculateHypotenuse(perpendicular, base) {
     return Math.sqrt(perpendicular ** 2 + base ** 2);
 }
 
-// Function to calculate perpendicular
+// formula for  perpendicular
 function calculatePerpendicular(hypotenuse, base) {
     return Math.sqrt(hypotenuse ** 2 - base ** 2);
 }
 
-// Function to calculate base
+// formula for  base
 function calculateBase(hypotenuse, perpendicular) {
     return Math.sqrt(hypotenuse ** 2 - perpendicular ** 2);
 }
 
-// Example usage
-// Assuming you want to calculate one of the sides or hypotenuse
-// and the inputs are provided through some other means (e.g., web form)
-
+// function to perform calculation
 function performCalculation(calculationType, side1, side2) {
     let result;
     switch (calculationType.toLowerCase()) {
@@ -45,5 +42,8 @@ function performCalculation(calculationType, side1, side2) {
     }
 }
 
-// Example call to performCalculation
-performCalculation("hypotenuse", 3, 4); // For calculating hypotenuse
+// calculating hypotenuse
+performCalculation("hypotenuse", 3, 4); 
+
+//Author : Hemant Thapa
+//Date code pushed in Git : 27.02.2024
