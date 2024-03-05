@@ -1,3 +1,7 @@
+# Depth-First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. 
+# The algorithm starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible along each branch before backtracking. 
+# This makes DFS particularly useful for tasks like checking connectivity and finding paths in a maze or puzzle, exploring all possible solutions before retreating to earlier states.
+
 # class represents a directed graph using adjacency list representation
 class Graph:
     def __init__(self):
