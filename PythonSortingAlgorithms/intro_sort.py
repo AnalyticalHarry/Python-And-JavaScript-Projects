@@ -52,7 +52,7 @@ def partition(A):
     right = [x for x in A if x > pivot]
     return left, middle, right
 
-# IntroSort logic
+# intro sort logic
 def introsort(A, maxdepth):
     n = len(A)
     # use insertion sort for small arrays
