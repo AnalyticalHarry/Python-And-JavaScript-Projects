@@ -1,3 +1,5 @@
+## Sortiung algorithms 
+
 - Bubble Sort - While not efficient for large datasets, it's often introduced for educational purposes.
 - Selection Sort - Similarly, it's simple but not suitable for large datasets.
 - Insertion Sort - Effective for small datasets or nearly sorted arrays.
@@ -10,6 +12,8 @@
 - Shell Sort - An improvement on insertion sort, better for medium-sized arrays.
 - Timsort - A hybrid sorting algorithm derived from merge sort and insertion sort, used in Python’s sorted() and Java’s Arrays.sort().
 - IntroSort - A hybrid sort used in the C++ Standard Library's sort function, combining quicksort, heapsort, and insertion sort.
+
+## Searching algorithms 
 
 - **Linear Search**: For sequentially searching through lists.
 - **Binary Search**: For efficient searching in sorted arrays.
