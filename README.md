@@ -10,8 +10,7 @@
 - Bucket Sort - Useful in specific scenarios where the data is uniformly distributed.
 - Counting Sort - Efficient for sorting small integers or non-comparative sorting scenarios.
 - Shell Sort - An improvement on insertion sort, better for medium-sized arrays.
-- IntroSort - A hybrid sort used in the C++ Standard Library's sort function, combining quicksort, heapsort, and insertion sort.
-
+  
 ## Searching algorithms 
 
 - **Linear Search**: For sequentially searching through lists.
