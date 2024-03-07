@@ -1,4 +1,4 @@
-## Sortiung algorithms 
+## Sorting algorithms 
 
 - Bubble Sort - While not efficient for large datasets, it's often introduced for educational purposes.
 - Selection Sort - Similarly, it's simple but not suitable for large datasets.
