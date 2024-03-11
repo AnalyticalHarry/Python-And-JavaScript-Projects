@@ -11,7 +11,7 @@ function compare(x, y, ascending = true) {
 function heapify(data, n, i, ascending = true) {
   // initialise the largest as the root
   let largest = i;
-  // indices of the left and right children of the current node
+  // Indices of the left and right children of the current node
   const left = 2 * i + 1;
   const right = 2 * i + 2;
 
@@ -49,7 +49,7 @@ function heapSort(data, ascending = true) {
     const temp = data[0];
     data[0] = data[i];
     data[i] = temp;
-    // heapify the reduced heap
+    // Heapify the reduced heap
     heapify(data, i, 0, ascending);
   }
 }
@@ -63,4 +63,4 @@ const ascendingOrder = true;
 heapSort(data, ascendingOrder);
 
 // sorted list
-console.log(`Sorted List using Heap Sort (${ascendingOrder ? 'Ascending' : 'Descending'}):
+console.log(`Sorted List using Heap Sort (${ascendingOrder ? 'Ascending' : 'Descending'}):`, data);
