@@ -22,3 +22,6 @@
 - **Depth-First Search (DFS)**: Traverses trees or graphs deeply before backtracking.
 - **Breadth-First Search (BFS)**: Explores neighbors at the current depth before moving deeper.
 - **Uniform Cost Search (UCS)**: Searches for the least cost path in weighted graphs.
+
+Author : Hemant Thapa
+Email : hemantthapa1998@gmail.com
